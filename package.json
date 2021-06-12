@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "slidev --open",
+    "build": "slidev build --base /slidev-cypress/ && slidev export --dark --format=pdf --output dist/slidev-exported.pdf",
+    "export": "slidev export --dark --format=pdf"
+  },
+  "dependencies": {
+    "@slidev/cli": "^0.20.4",
+    "@slidev/theme-default": "*",
+    "@slidev/theme-seriph": "*"
+  },
+  "name": "slidev",
+  "devDependencies": {
+    "playwright-chromium": "^1.12.2"
+  }
+}
